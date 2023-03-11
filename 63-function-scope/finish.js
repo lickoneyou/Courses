@@ -13,9 +13,12 @@ function myFn1(a) {
   myFn2(b)
 }
 
+
 function myFn2(a) {
   let c = 5
   console.log(a, b, c, d)
 }
 
 myFn1()
+
+// undefined 2 5 15

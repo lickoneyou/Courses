@@ -10,7 +10,11 @@
 function firstFunction(a, b) {
   return a + b
 }
+console.log(firstFunction(1,2))
 
 const secondFunction = function (a, b) {
   return a + b
 }
+
+console.log(secondFunction(2,4))
+

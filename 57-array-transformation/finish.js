@@ -9,6 +9,17 @@
  * 3. Исходный массив постов должен остаться без изменений
  */
 
+function processPosts(arr) {
+  return arr.map(el =>{
+   let {postId,
+    author: postAuthor,
+    commentsQty = 0} = el
+    return {postId: postId+=1000,
+      postAuthor,
+      commentsQty}
+  })
+}
+
 const testPosts = [
   {
     postId: 234,

@@ -14,6 +14,18 @@
  *  - changeGreeting
  */
 
+function createGreeting() {
+    let greetingString = "Hey, this is"
+    return {
+        greet(n){
+            return `${greetingString} ${n}`
+        },
+        changeGreeting(gr){
+            greetingString = gr
+            }
+}
+}
+
 const greeting1 = createGreeting()
 
 console.log(greeting1.greet('Bob'))

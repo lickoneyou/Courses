@@ -17,7 +17,13 @@ let person = {
   cartId: 435,
 }
 
+{
+let {_id, processed, cart, ...rest} = person
+person = rest
+}
+
 console.log(person)
+
 /*
 {
   index: 4,

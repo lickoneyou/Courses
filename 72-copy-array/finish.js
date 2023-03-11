@@ -8,6 +8,9 @@ const a = [1, 2, 3]
 
 // Напишите код здесь
 
+// let b = [...a]
+let b = a.slice()
+
 b.push('newElement')
 
 console.log(a)

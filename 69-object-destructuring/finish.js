@@ -6,6 +6,10 @@
  * Результат умножения верните из функции
  */
 
+function mult(params) {
+  return Object.values(params).reduce((acc, el) => acc*el,1)
+}
+
 const objectWithNumbers = {
   x: 5,
   y: 20,

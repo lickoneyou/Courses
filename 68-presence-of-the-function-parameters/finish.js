@@ -6,7 +6,10 @@
  */
 
 function square(a) {
-  console.log(a * a)
+  if(a){
+    console.log(a * a)
+  }
+throw new Error('Функция "square" не может быть вызвана без аргумента')
 }
 
 square(10)

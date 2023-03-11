@@ -11,5 +11,7 @@ const str = 'Today is the best day of my life'
 
 // Напишите код здесь
 
+vowelsCount = str.replace(/[^aeiou]/gi, '').length
+
 console.log(vowelsCount)
 // 9
