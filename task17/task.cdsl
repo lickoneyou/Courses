@@ -1,0 +1,24 @@
+{
+  "jsLectureId": 10,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Questions?",
+      "description": [
+        "Implement a function **questionize** in *helper.js*.",
+        "It should take a string, add a question mark (\"?\") to it and return this string as a result."
+      ]
+    },
+    "ru": {
+      "title": "Вопросы?",
+      "description": [
+        "Реализуй функцию **questionize** в *helper.js*.",
+        "Она должна принять строку, добавить к ней знак вопроса и вернуть что получится."
+      ]
+    }
+  }
+}

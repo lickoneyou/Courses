@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 9,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Import constants",
+      "description": [
+        "Import constants from the file *constants.js* and log them to the console using console.log",
+        "",
+        "Each console.log should print a different constant to the screen"
+      ]
+    },
+    "ru": {
+      "title": "Импортируем константы",
+      "description": [
+        "Импортируй константы из файла *constants.js* и выведи их на экран с помощью console.log",
+        "",
+        "Каждый console.log должен выводить отдельную константу на экран"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "jsLectureId": 9,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Distance",
+      "description": [
+        "In this task, you're going to calculate the ride distance based on the given speed and time:",
+        "- in the file `constants.js` you need to create and export two constants `rideSpeed` and `rideTime`",
+        "- set any numerical values for `rideSpeed and rideTime`",
+        "- in the `solutions.js` file, import the` rideSpeed` and `rideTime` constants from the `constants.js` file",
+        "- in the file `solutions.js` using `console.log` print the distance calculation",
+        "",
+        "As a result, the console should display the distance depending on the values that you specified.",
+        "P.S. Distance is a product of speed and time"
+      ]
+    },
+    "ru": {
+      "title": "Расстояние",
+      "description": [
+        "В этом задании тебе нужно рассчитать расстояние для заданных времени и скорости:",
+        "- в файле `constants.js` нужно создать и экспортировать две константы `rideSpeed` и `rideTime`",
+        "- значения числовым константам `rideSpeed` и `rideTime` придумай самостоятельно",
+        "- в файл `solutions.js` импортируй константы `rideSpeed` и `rideTime` из файла `constants.js`",
+        "- в файле `solutions.js` используя `console.log` выведите расчёт расстояния",
+        "",
+        "В результате в консоль должно выводится расстояние полученное из `rideSpeed` и `rideTime`.",
+        "P.S. Расстояние - это произведение скорости и времени."
+      ]
+    }
+  }
+}
