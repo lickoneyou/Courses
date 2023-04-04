@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 12,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "All the same",
+      "description": [
+        "Implement the function `allTheSame` in `helper.js`. It should accept 3 boolean parameters (x, y, z) and",
+        "- return `true` if x, y and z are the same (all `true` or all `false`)",
+        "- return `false` otherwise",
+        "",
+        "The function `allTheSame` should not contain more than one `if` statement"
+      ]
+    },
+    "ru": {
+      "title": "Все то же",
+      "description": [
+        "Реализуй функцию `allTheSame` в `helper.js`. Она должна принять 3 логических параметра (x, y, z) и",
+        "- вернуть `true`, если `x`, `y` и `z` одинаковые (все `true` или все `false`)",
+        "- вернуть `false`, если хотя бы один из параметров отличается от других",
+        "",
+        "Функция `allTheSame` должна содержать не больше одного блока `if`"
+      ]
+    }
+  }
+}

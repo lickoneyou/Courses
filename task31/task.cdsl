@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 12,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Max of 2",
+      "description": [
+        "Implement the function findMax that takes two numbers and returns the bigger one."
+      ]
+    },
+    "ru": {
+      "title": "Большее из двух",
+      "description": [
+        "Реализуй функцию findMax, которая принимает два числа и возвращает большее."
+      ]
+    }
+  }
+}
