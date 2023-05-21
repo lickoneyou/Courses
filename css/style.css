@@ -279,3 +279,74 @@ button:focus {
 .usefull__btn:hover {
   background-color: #1ccea1;
 }
+
+.progress {
+  display: flex;
+}
+
+.progress__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.progress__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 150px;
+}
+
+.progress__item_buisness {
+  background-color: #80d8ff;
+}
+
+.progress__item_buisness i {
+  color: #80d8ff;
+}
+
+.progress__item_download {
+  background-color: #82b1ff;
+}
+
+.progress__item_download i {
+  color: #82b1ff;
+}
+
+.progress__item_install {
+  background-color: #b388ff;
+}
+
+.progress__item_install i {
+  color: #b388ff;
+}
+
+.progress__item_users {
+  background-color: #ea80fc;
+}
+
+.progress__item_users i {
+  color: #ea80fc;
+}
+
+.progress__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin-right: 23px;
+}
+
+.progress__icon > i {
+  font-size: 30px;
+}
+
+.progress__text {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 20px;
+}
