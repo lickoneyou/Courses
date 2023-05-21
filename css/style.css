@@ -82,3 +82,104 @@ a:hover {
 .promo__sing > button:focus {
   outline: none;
 }
+
+.promo__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 167px;
+}
+
+.promo__text {
+  width: 45%;
+}
+
+.promo__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 65px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo__descr {
+  font-size: 18px;
+  line-height: 35px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.promo__btns {
+  margin-top: 38px;
+}
+
+.promo__btn {
+  width: 160px;
+  height: 55px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.promo__btn_black {
+  background: #061e37;
+  color: white;
+  margin-right: 30px;
+}
+
+.promo__btn_black:hover {
+  color: #061e37;
+  background: white;
+}
+
+.promo__btn_white {
+  color: #061e37;
+  background: white;
+}
+
+.promo__btn_white:hover {
+  background: #061e37;
+  color: white;
+}
+
+.promo__video {
+  position: relative;
+}
+
+.promo__video > video {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid #061e37;
+}
+
+.promo__play {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 75px);
+  width: 150px;
+  color: #061e37;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.promo__play > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #061e37;
+  margin: 0 auto 22px auto;
+}
+
+.promo__play > div > i {
+  color: white;
+}
