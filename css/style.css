@@ -13,6 +13,33 @@ a:hover {
   text-decoration: none;
 }
 
+button:focus {
+  outline: none;
+}
+
+.title {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: #061e37;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 25px;
+  color: #b0bec5;
+  text-align: center;
+  line-height: 16px;
+}
+
+.descr {
+  line-height: 25px;
+  color: #b0bec5;
+  text-align: center;
+  width: 560px;
+  margin: 24px auto 0 auto;
+}
+
 .promo {
   min-height: 750px;
   background: url(../img/bg1.jpg) center center/cover no-repeat;
@@ -182,4 +209,73 @@ a:hover {
 
 .promo__play > div > i {
   color: white;
+}
+
+.useful {
+  padding: 100px 0;
+  min-height: 800px;
+}
+
+.useful__content {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.useful__item {
+  width: 27%;
+}
+
+.useful__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #061e37;
+}
+
+.useful__descr {
+  text-align: center;
+  line-height: 20px;
+  color: #78909c;
+}
+
+.useful__icon {
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.useful__icon > i {
+  font-size: 80px;
+}
+
+.fa-calendar-days {
+  color: #b388ff;
+}
+
+.fa-users {
+  color: #80d8ff;
+}
+
+.fa-fire-extinguisher {
+  color: #ea80fc;
+}
+
+.usefull__btn {
+  display: block;
+  margin: 78px auto 0 auto;
+  width: 150px;
+  height: 55px;
+  background: #1de9b6;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: none;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.usefull__btn:hover {
+  background-color: #1ccea1;
 }
