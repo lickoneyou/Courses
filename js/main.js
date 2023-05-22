@@ -10,4 +10,12 @@ window.addEventListener('DOMContentLoaded', () => {
       elem.classList.add('tabs__item_active')
     })
   })
+  $('.carousel').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    prevArrow:
+      '<div class="carousel__arrow carousel__prev"><i class="fa-solid fa-arrow-left"></i></div>',
+    nextArrow:
+      '<div class="carousel__arrow carousel__next"><i class="fa-solid fa-arrow-right"></i></div>',
+  })
 })

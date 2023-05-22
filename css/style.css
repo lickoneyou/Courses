@@ -13,7 +13,8 @@ a:hover {
   text-decoration: none;
 }
 
-button:focus {
+button:focus,
+div:focus {
   outline: none;
 }
 
@@ -497,7 +498,7 @@ button:focus {
   margin-top: 78px;
 }
 
-.comment__item{
+.comment__item {
   display: flex;
   align-items: center;
 }
@@ -532,10 +533,78 @@ button:focus {
   padding: 30px;
 }
 
-.comment__item{
+.comment__item {
   margin-bottom: 70px;
 }
 
-.comment__item:last-child{
+.comment__item:last-child {
   margin-bottom: 0;
+}
+
+.team {
+  padding: 100px 0 90px;
+}
+
+.team__content {
+  margin-top: 90px;
+}
+
+.carousel {
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  margin: 0 auto 60px auto;
+}
+
+.carousel__name {
+  color: #061e37;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.carousel__text {
+  color: #90a4ae;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel__links {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.carousel__links a {
+  margin: 0 15px;
+}
+
+.carousel__links i {
+  color: #90a4ae;
+  font-size: 20px;
+}
+
+.carousel__arrow {
+  position: absolute;
+  top: 20%;
+}
+
+.carousel__arrow i {
+  font-size: 60px;
+}
+
+.carousel__next {
+  right: 0;
+}
+
+.carousel__prev {
+  left: 0;
+  z-index: 1;
 }
