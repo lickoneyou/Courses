@@ -618,7 +618,7 @@ textarea:focus {
 
 .contact {
   background: #fafafa;
-  padding: 50p 0 100px;
+  padding: 50px 0 100px;
 }
 
 .contact__content {
@@ -668,6 +668,7 @@ textarea:focus {
   align-items: center;
   font-weight: 500;
   color: #061e37;
+  user-select: none;
 }
 
 .form__subs {
