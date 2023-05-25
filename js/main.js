@@ -1,5 +1,20 @@
 window.addEventListener('DOMContentLoaded', () => {
   const tabs = document.querySelectorAll('.tabs__item')
+  const playBtn = document.querySelector('#playVideo')
+  const video = document.querySelector('#video')
+
+  playBtn.addEventListener('click', function () {
+    video.play()
+    video.setAttribute('controls', 'controls')
+    playBtn.style.display = 'none'
+  })
+
+  video.addEventListener('ended', function () {
+    this.src = this.src
+    playBtn.style.display = 'block'
+    video.removeAttribute('controls')
+  })
+
   tabs.forEach((elem) => {
     elem.addEventListener('click', () => {
       tabs.forEach((otherItem) => {
