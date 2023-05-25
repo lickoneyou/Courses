@@ -18,4 +18,14 @@ window.addEventListener('DOMContentLoaded', () => {
     nextArrow:
       '<div class="carousel__arrow carousel__next"><i class="fa-solid fa-arrow-right"></i></div>',
   })
+  $('#buyNowBtn').on('click', popupOpen)
+  $('#tryFromBtn').on('click', popupOpen)
+  $('.popup__close').on('click', () => {
+    $('.popup').removeClass('popup__active')
+    $('body').css('overflow', 'visible')
+  })
+  function popupOpen() {
+    $('.popup').addClass('popup__active')
+    $('body').css('overflow', 'hidden')
+  }
 })

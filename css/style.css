@@ -731,8 +731,8 @@ textarea:focus {
   margin-right: 0;
 }
 
-.footer__links i{
-  opacity:  0.2;
+.footer__links i {
+  opacity: 0.2;
   color: #ffffff;
   font-size: 20px;
 }
@@ -746,4 +746,46 @@ textarea:focus {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__active {
+  display: flex;
+}
+
+.popup__wrap {
+  background-color: #fff;
+  padding: 50px;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.popup__form {
+  width: 645px;
+}
+
+.popup__close {
+  position: absolute;
+  font-size: 50px;
+  color: grey;
+  top: 15px;
+  right: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.popup__close:hover {
+  color: red;
 }

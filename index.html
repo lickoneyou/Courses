@@ -64,8 +64,12 @@
               aliquip ex ea commodo consequat.
             </div>
             <div class="promo__btns">
-              <button class="promo__btn promo__btn_black">buy now</button>
-              <button class="promo__btn promo__btn_white">try for free</button>
+              <button class="promo__btn promo__btn_black" id="buyNowBtn">
+                buy now
+              </button>
+              <button class="promo__btn promo__btn_white" id="tryFromBtn">
+                try for free
+              </button>
             </div>
           </div>
           <div class="promo__video">
@@ -573,16 +577,70 @@
               </ul>
             </nav>
             <div class="footer__links">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-behance"></i></a>
-              </div>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-behance"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </footer>
+    <div class="popup">
+      <div class="popup__wrap">
+        <div class="popup__form">
+          <form action="#" class="form">
+            <div class="form__wrap">
+              <input
+                type="text"
+                name="firstName"
+                class="form__inp"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                name="lastName"
+                class="form__inp"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <div class="form__wrap">
+              <input
+                type="email"
+                name="email"
+                class="form__inp"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="tel"
+                name="tel"
+                class="form__inp"
+                placeholder="Phone"
+                required
+              />
+            </div>
+            <textarea
+              name="message"
+              class="form__massage"
+              placeholder="Message"
+              required
+            ></textarea>
+            <div class="form__send">
+              <label for="subs">
+                <input type="checkbox" name="subs" class="form__subs" />
+                subscribe to the newsletter
+              </label>
+              <input type="submit" class="form__btn" value="send" />
+            </div>
+          </form>
+        </div>
+        <i class="fa-solid fa-xmark popup__close"></i>
+      </div>
+    </div>
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
