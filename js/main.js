@@ -28,4 +28,17 @@ window.addEventListener('DOMContentLoaded', () => {
     $('.popup').addClass('popup__active')
     $('body').css('overflow', 'hidden')
   }
+  $("a[href*='#']").on('click', function (e) {
+    var anchor = $(this)
+    $('html, body')
+      .stop()
+      .animate(
+        {
+          scrollTop: $(anchor.attr('href')).offset().top,
+        },
+        777,
+      )
+    e.preventDefault()
+    return false
+  })
 })
