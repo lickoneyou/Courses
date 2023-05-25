@@ -691,3 +691,59 @@ textarea:focus {
   border: none;
   transition: all 0.3s ease;
 }
+
+.footer {
+  padding: 100px 0;
+  background-color: #061e37;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.footer__submenu {
+  display: flex;
+  align-items: center;
+}
+
+.footer__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__submenu a {
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.footer__submenu div {
+  height: 6px;
+  width: 6px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin: 20px 20px;
+}
+
+.nav__item_margin-none {
+  margin-right: 0;
+}
+
+.footer__links i{
+  opacity:  0.2;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer__links a {
+  margin-left: 20px;
+}
+
+.footer__primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
