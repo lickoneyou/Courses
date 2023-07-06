@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.site-header img {
+  max-width: 100%;
+}
+
+.site-header h1,
+.site-header h2 {
+  color: #222;
+  font-size: 26px;
+  text-align: center;
+  margin: 30px auto;
+  text-transform: uppercase;
+}
+
+.site-header h2 {
+  font-size: 22px;
+}
+
+.site-header a {
+  color: #3b0b99;
+}
+
+.site-header h2 a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+figure {
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  box-shadow: 0 0 10px #c0c0c0;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+p {
+  margin: 20px;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+.bg-orange {
+  background: orange;
+}
+
+.bg-orangered {
+  background: orangered;
+}
+
+.bg-brown {
+  background: brown;
+}
+
+.bg-darkcyan {
+  background: darkcyan;
+}
+
+.bg-dodgerBlue {
+  background: DodgerBlue;
+}
+
+.out-1,
+.out-2,
+.out-3,
+.out-4,
+.out-5,
+.out-6,
+.out-7 {
+  margin: 30px auto;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  margin: 1%;
+}
+
+.block-1 {
+  animation-name: circle;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: 3;
+}
+
+@keyframes circle {
+  100% {
+    border-radius: 50%;
+    background-color: orangered;
+  }
+}
+
+.out-2 {
+  position: relative;
+}
+
+.block-2 {
+  position: relative;
+  animation-name: run;
+  animation-duration: 3s;
+  left: 0px;
+}
+
+@keyframes run {
+  50% {
+    left: 800px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+.out-3:hover > img {
+  animation: rev;
+  animation-duration: 1s;
+}
+
+@keyframes rev {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.out-4 {
+  border: 1px solid black;
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.out-4-inner {
+  display: flex;
+  position: relative;
+  right: 38px;
+}
+
+.out-4-inner > span {
+  margin-right: 10px;
+}
+
+.out-4:hover > .out-4-inner {
+  animation: slide;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes slide {
+  50% {
+    right: -20px;
+  }
+  100% {
+    right: 95px;
+  }
+}
+
+.out-5 {
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+}
+
+.out-5-inner {
+  display: flex;
+  animation-name: slider;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  position: relative;
+  right: 0;
+}
+
+@keyframes slider {
+  33% {
+    right: 130px;
+  }
+
+  66% {
+    right: 265px;
+  }
+}
