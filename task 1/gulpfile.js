@@ -22,4 +22,4 @@ gulp.task('three', function(callback) {
 
 gulp.task('series', gulp.series('one', 'two'))
 
-gulp.task('parallel', gulp.parallel('one', 'two', 'three'))
+gulp.task('parallel', gulp.parallel('one', 'two', ))
