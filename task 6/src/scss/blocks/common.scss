@@ -1,0 +1,67 @@
+/* common -------------------------- */
+html {
+    height: 100%;
+    background: #ffffff;
+}
+body {
+    height: 100%;
+    font: 17px/26px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6a6a6a;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+}
+.main {
+    min-height: 100%;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 30px;
+}
+a {
+    color: #26a6d1;
+    cursor: pointer;
+    -moz-transition: color 0.15s linear;
+    -o-transition: color 0.15s linear;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+}
+a:hover {
+    color: #1e85a7;
+}
+.error {
+    color: #FF0000 !important;
+    border-color: #FF0000 !important;
+}
+.success {
+    color: #00CC00 !important;
+    border-color: #00CC00 !important;
+}
+.disabled {
+    color: #999999 !important;
+    border-color: #999999 !important;
+    cursor: default !important;
+}
+.social li a,
+.ico-help,
+.ico-like,
+.ico-present,
+.istore a:after {
+    background: url(../images/sprite.png) no-repeat 0 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #324d5b;
+}
+h1, h2, h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 22px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}

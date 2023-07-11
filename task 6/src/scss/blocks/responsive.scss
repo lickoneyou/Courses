@@ -1,0 +1,124 @@
+/* Responsive -------------------------- */
+@media (max-width: 959px){
+    .promo .wrap {
+        min-height: 0;
+    }
+    .promo .wrap img {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .promo-text {
+        text-align: center;
+        display: block;
+        height: auto;
+        width: auto;
+        padding: 65px 0 48px;
+    }
+    .promo-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .promo-link,
+    .promo-button {
+        margin: 0 15px 15px;
+    }
+    footer {
+        padding-top: 0;
+        background-color: #f6f6f6;
+    }
+    footer .logo {
+        display: none;
+    }
+    .copy,
+    .istore,
+    .social {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+    .copy {
+        padding: 80px 0 25px;
+    }
+    .istore {
+        background: #ffffff;
+        margin: 0 -30px;
+        padding: 80px 30px;
+    }
+    .social ul {
+        display: inline-block;
+    }
+    .social ul li {
+        margin: 0 11px 11px;
+    }
+    .subscribe-email {
+        width: 300px;
+    }
+    .tabsblock {
+        padding-top: 60px;
+    }
+    .tabsblock .wrap {
+        min-height: 0;
+    }
+    .tabsblock .wrap img {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .tab {
+        text-align: center;
+        padding-left: 0;
+        width: auto;
+        display: block;
+        height: auto;
+        vertical-align: top;
+    }
+    .tabs {
+        display: inline-block;
+    }
+    .tabs li {
+        margin: 0 7px 13px 6px;
+    }
+    .box-text {
+        margin: 0 0 60px;
+    }
+}
+@media (max-width: 767px){
+    header {
+        text-align: center;
+    }
+    header .logo {
+        float: none;
+        display: inline-block;
+    }
+    header .social {
+        display: none;
+    }
+    .feature {
+        width: 100%;
+    }
+    .subscribe-email {
+        width: 200px;
+    }   
+}
+@media (max-width: 479px){
+    body {
+        word-wrap: break-word;
+    }
+    .simple p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .subscribe-email {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .subscribe-button {
+        width: 100%;
+    }
+}
