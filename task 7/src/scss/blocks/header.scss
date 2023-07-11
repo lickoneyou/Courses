@@ -1,0 +1,61 @@
+/* header -------------------------- */
+header {
+    padding: 69px 0;
+}
+header .logo {
+    float: left;
+}
+header .logo a {
+    display: inline-block;
+}
+.social {
+    float: right;
+    padding: 2px 0;
+}
+.social li {
+    float: left;
+    margin: 0 0 0 22px;
+}
+.social li a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    background-color: #3b5998;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+.social li a.social-facebook {
+    background-position: 0 0;
+}
+.social li a.social-facebook:hover {
+    background-color: #4f6aa3;
+}
+.social li a.social-facebook:active {
+    background-color: #355089;
+}
+.social li a.social-twitter {
+    background-position: -50px 0;
+    background-color: #55acee;
+}
+.social li a.social-twitter:hover {
+    background-color: #66b4f0;
+}
+.social li a.social-twitter:active {
+    background-color: #4c9ad6;
+}
+.social li a.social-googleplus {
+    background-position: -100px 0;
+    background-color: #dd4b39;
+}
+.social li a.social-googleplus:hover {
+    background-color: #e05d4d;
+}
+.social li a.social-googleplus:active {
+    background-color: #c64333;
+}
