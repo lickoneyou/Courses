@@ -51,7 +51,11 @@ function App() {
   }
 
   const task8 = () => {
-    setDivValue(input8.current.value)
+    setDivValue(replacer())
+  }
+
+  function replacer() {
+    return input8.current.value.replace(/[0-9]/g, '1').replace(/[a-z]/gi, '0')
   }
 
   return (
