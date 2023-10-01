@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 11,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Array of numbers",
+      "description": [
+        "Fill in the array **numbers** with 10 different numbers and export it from the file *helper.js*"
+      ]
+    },
+    "ru": {
+      "title": "Массив чисел",
+      "description": [
+        "Заполни массив **numbers** десятью числами и экспортируй его из файла *helper.js*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 10,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Circle length",
+      "description": [
+        "Implement a function **circleLength** that calculates and returns the length of the circle given its radius"
+      ]
+    },
+    "ru": {
+      "title": "Длина окружности",
+      "description": [
+        "Реализуй функцию **circleLength**, которая примет радиус и вернет длину окружности"
+      ]
+    }
+  }
+}

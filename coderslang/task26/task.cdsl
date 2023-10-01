@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 11,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Two dimensional array",
+      "description": [
+        "Make twoDime a 2 dimensional array in the file helper.js"
+      ]
+    },
+    "ru": {
+      "title": "Двумерный массив",
+      "description": [
+        "Сделай twoDime двумерным массивом в файле helper.js"
+      ]
+    }
+  }
+}

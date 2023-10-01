@@ -1,0 +1,32 @@
+{
+  "jsLectureId": 9,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Hello, export world!",
+      "description": [
+        "You need to do a couple of things in this task:",
+        "- create the file `constants.js`",
+        "- export the constant `hello` which should be the string `Hello, export world!` from it",
+        "- import it into `solution.js`",
+        "",
+        "Eventually you should see the `Hello, export world!` printed to the screen."
+      ]
+    },
+    "ru": {
+      "title": "Привет, мир экспорта!",
+      "description": [
+        "В этом задании нужно сделать несколько вещей:",
+        "- создай файл `constants.js`",
+        "- экспортируй из него константу `hello` равную `Hello, export world!`",
+        "- импортируй `hello` в `solution.js`",
+        "",
+        "В результате ты должен увидеть строку `Hello, export world!` выведенную на экран."
+      ]
+    }
+  }
+}

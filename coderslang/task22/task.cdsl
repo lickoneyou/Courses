@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 10,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Multiply 4",
+      "description": [
+        "Implement a function **multiply** in *helper.js* which multiplies four numbers and returns the product"
+      ]
+    },
+    "ru": {
+      "title": "Умножь 4",
+      "description": [
+        "Реализуй функцию **multiply** в файле *helper.js*, которая умножит четыре числа и вернет их произведение"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 11,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Array of strings",
+      "description": [
+        "Fill the array **strings** with 5 different strings and export it from the file *helper.js*"
+      ]
+    },
+    "ru": {
+      "title": "Массив чисел",
+      "description": [
+        "Заполни массив **strings** пятью разными строками и экспортируй его из файла *helper.js*"
+      ]
+    }
+  }
+}
