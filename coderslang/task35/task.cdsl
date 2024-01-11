@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 12,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Greater than or equal",
+      "description": [
+        "Implement the function `gte` in helper.js. It should accept 2 parameters (x, y) and",
+        "- return `true` if x is greater than or equal to y",
+        "- return `false` otherwise",
+        "",
+        "The function `gte` should not contain more than one `if` statement"
+      ]
+    },
+    "ru": {
+      "title": "Больше или равно",
+      "description": [
+        "Реализуй функцию `gte(x, y)` в файле helper.js. Она должна принять 2 параметра и",
+        "- вернуть `true`, если `x` больше или равен `y`",
+        "- вернуть `false` в других случаях",
+        "",
+        "В функции `gte` должно быть не более одной конструкции `if`"
+      ]
+    }
+  }
+}

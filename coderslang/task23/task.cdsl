@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 11,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Fruits",
+      "description": [
+        "Fill in the array **fruits** with 5 elements and export it from the file *helper.js*"
+      ]
+    },
+    "ru": {
+      "title": "Фрукты",
+      "description": [
+        "Заполни массив **fruits** пятью любыми элементами и экспортируй его из файла *helper.js*"
+      ]
+    }
+  }
+}

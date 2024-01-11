@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 10,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Sum of two",
+      "description": [
+        "Implement a function sum in helper.js which should return the sum of two numbers"
+      ]
+    },
+    "ru": {
+      "title": "Сумма двух",
+      "description": [
+        "Реализуй функцию **sum** в *helper.js*, которая должна вернуть сумму двух чисел."
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "jsLectureId": 9,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Hi, Connor!",
+      "description": [
+        "There are several things to fix in this assignment:",
+        "- in the file `constants.js` you need to export the constant `users`",
+        "- in file `helpers.js` import constant `users` from file` constants.js`",
+        "- in the `solutions.js` file, import the `getUserName` method from the` helpers.js` file",
+        "",
+        "As a result, the console should display a greeting: `Hi Connor, glad to see you`"
+      ]
+    },
+    "ru": {
+      "title": "Привет, Коннор!",
+      "description": [
+        "В этом задании нужно исправить несколько вещей:",
+        "- из файла `constants.js` нужно экспортировать константу `users`",
+        "- в файл `helpers.js` импортировать константу `users` из файла `constants.js`",
+        "- в файл `solutions.js` импортировать функцию `getUserName` из файла `helpers.js`",
+        "",
+        "В результате в консоль должно выводится приветствие:`Hi Connor, glad to see you`"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 12,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Less than or equal",
+      "description": [
+        "The function `lte` is broken. Fix the conditions inside `if (...)` statements.",
+        "The messages printed to the screen should start making sense after the fix",
+        "",
+        "Don't change the output, only fix the conditions."
+      ]
+    },
+    "ru": {
+      "title": "Меньше или равно",
+      "description": [
+        "Функция `lte` сломана. Исправь условия в if (...), чтобы сообщения на экране имели смысл.",
+        "",
+        "Сообщения не меняй, только почини условия."
+      ]
+    }
+  }
+}

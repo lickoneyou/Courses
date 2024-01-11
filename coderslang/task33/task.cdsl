@@ -1,0 +1,28 @@
+{
+  "jsLectureId": 12,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Get the lesser evil",
+      "description": [
+        "Sometimes, there isn't a good choice and we need to choose the lesser evil.",
+        "",
+        "Implement a function **getLesserEvil** that takes two objects, compares them by the field **evilFactor** and",
+        "returns the one with the smallest **evilFactor**."
+      ]
+    },
+    "ru": {
+      "title": "Из двух зол выбирают меньшее",
+      "description": [
+        "Иногда, хороший выбор просто отсутствует и мы вынуждены выбирать меньшее из двух зол.",
+        "",
+        "Реализуй функцию **getLesserEvil** которая принимает два объекта, сравнивает их по **evilFactor**",
+        "и возвращает то, у которого **evilFactor** меньше."
+      ]
+    }
+  }
+}

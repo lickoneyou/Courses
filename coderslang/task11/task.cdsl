@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 9,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Fix export",
+      "description": [
+        "Fix the code by fixing the issues with constants in the file `constants.js`",
+        "",
+        "You should see messages `Hey there!` and `See you!` logged to the screen."
+      ]
+    },
+    "ru": {
+      "title": "Чиним экспорт",
+      "description": [
+        "Импортируй константы из файла *constants.js* и выведи их на экран с помощью console.log",
+        "",
+        "Каждый console.log должен выводить отдельную константу на экран"
+      ]
+    }
+  }
+}

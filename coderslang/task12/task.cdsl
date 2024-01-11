@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 9,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Fix export (2)",
+      "description": [
+        "Something is wrong with exports... Again...",
+        "",
+        "Fix the constants.js and make sure that the message is printed out correctly"
+      ]
+    },
+    "ru": {
+      "title": "Чиним экспорт (2)",
+      "description": [
+        "Снова что-то не так с экспортами...",
+        "",
+        "Почини `constants.js` и убедись, что сообщение выводится на экран корректно"
+      ]
+    }
+  }
+}

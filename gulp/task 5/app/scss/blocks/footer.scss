@@ -1,0 +1,58 @@
+/* footer -------------------------- */
+footer {
+    padding: 90px 0;
+}
+footer .logo {
+    float: left;
+    margin: 0 95px 0 0;
+}
+footer .logo img {
+    display: block;
+}
+.istore {
+    float: left;
+    position: relative;
+    line-height: 36px;
+    text-align: center;
+    margin: 8px 62px 8px 0;
+}
+.istore a {
+    position: relative;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 14px;
+    padding: 0 0 0 47px;
+}
+.istore a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #26a6d1;
+    background-position: -150px 0;
+    width: 36px;
+    height: 36px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: background-color 0.15s linear;
+    -o-transition: background-color 0.15s linear;
+    -webkit-transition: background-color 0.15s linear;
+    transition: background-color 0.15s linear;
+}
+.istore:hover:after {
+    background-color: #1e85a7;
+}
+.copy {
+    float: left;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 8px 0;
+}
+.copy a {
+    color: #3db39e;
+    font-weight: bold;
+}
+.copy a:hover {
+    color: #318f7e;
+}

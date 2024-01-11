@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "solution.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
