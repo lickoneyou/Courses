@@ -73,9 +73,12 @@ class Calculator {
 }
 
 const myCalc = new Calculator(10);
-myCalc.minus(3);
+myCalc.minus(3); 
 myCalc.plus(7);
 myCalc.result = 30;
 myCalc.divide(2);
 myCalc.mult(4);
 console.log(myCalc.result);
+
+
+//
