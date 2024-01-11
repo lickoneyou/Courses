@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 11,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Array of objects",
+      "description": [
+        "Fill in the array `objects` with 3 different objects and export it from the file `helper.js`"
+      ]
+    },
+    "ru": {
+      "title": "Массив объектов",
+      "description": [
+        "Заполни массив `objects` тремя разными объектами и экспортируй его из файла `helper.js`"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/* Retina -------------------------- */
+@media only screen and (-webkit-min-device-pixel-ratio:2), 
+only screen and (min--moz-device-pixel-ratio:2),
+only screen and (-o-min-device-pixel-ratio:2/1),
+only screen and (min-device-pixel-ratio:2),
+only screen and (min-resolution:192dpi),
+only screen and (min-resolution:2dppx){
+    .social li a,
+    .ico-help,
+    .ico-like,
+    .ico-present,
+    .istore a:after {
+        background-image: url(../images/sprite@2x.png);
+        -moz-background-size: 300px 150px;
+        -ie-background-size: 300px 150px;
+        -o-background-size: 300px 150px;
+        -webkit-background-size: 300px 150px;
+        background-size: 300px 150px;
+    }
+}

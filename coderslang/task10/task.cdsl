@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 9,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Finish refactoring",
+      "description": [
+        "Somebody has started the refactoring of code structure, but hasn't finished it.",
+        "",
+        "Check what's wrong and make necessary changes to *solution.js*.",
+        "",
+        "Don't move any files or folders."
+      ]
+    },
+    "ru": {
+      "title": "Заканчиваем рефакторинг",
+      "description": [
+        "Кто-то начал рефакторить структуру кода, но не закончил.",
+        "",
+        "Найди причину проблем и внеси необходимые изменения в файл *solution.js*.",
+        "",
+        "Не перемещай файлы и папки."
+      ]
+    }
+  }
+}

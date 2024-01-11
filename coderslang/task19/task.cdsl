@@ -1,0 +1,28 @@
+{
+  "jsLectureId": 10,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Fix greeting",
+      "description": [
+        "The function `sayHello` is broken, you need to fix it.",
+        "",
+        "It should take in the users name and return the greeting, in the proper format. Every character matters.",
+        "Examples: 'Hello, John!', 'Hello, Sara!', 'Hello, Peter!'"
+      ]
+    },
+    "ru": {
+      "title": "Исправь приветствие",
+      "description": [
+        "Функция `sayHello` - сломана. Ты должен ее починить.",
+        "",
+        "Она должна принять имя пользователя и вернуть приветствие в определенном формате. Важен каждый символ.",
+        "Примеры: 'Hello, John!', 'Hello, Sara!', 'Hello, Peter!'"
+      ]
+    }
+  }
+}

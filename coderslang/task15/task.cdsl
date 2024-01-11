@@ -1,0 +1,36 @@
+{
+  "jsLectureId": 9,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Import and use two constants",
+      "description": [
+        "In this task, you need to display the value of two constants via console.log:",
+        "- in the file `constants.js`, you need to export the `API` and `PROJECT_NAME` constants",
+        "- in the `solutions.js` file, import the `API` and `PROJECT_NAME` constants from the` constants.js` file",
+        "- call two `console.log` in the file `solutions.js`",
+        "- the `API` constant must be passed to the arguments of the first `console.log`",
+        "- the constant `PROJECT_NAME` must be passed to the arguments of the second `console.log`",
+        "",
+        "As a result, you'll see the strings `https://test-api.com` and `test-project` in the console"
+      ]
+    },
+    "ru": {
+      "title": "Импортируем и используем две константы",
+      "description": [
+        "В этом задании нужно вывести значение двух констант через `console.log`",
+        "- из файла `constants.js` нужно экспортировать константы API и PROJECT_NAME",
+        "- в файл `solutions.js` импортировать константы API и PROJECT_NAME из файла `constants.js`",
+        "- в файле `solutions.js` вызвать два `console.log`",
+        "- в аргументы первого console.log нужно передать константу API",
+        "- в аргументы второго console.log нужно передать константу PROJECT_NAME",
+        "",
+        "В результате в консоли появятся строки `https://test-api.com` и `test-project`"
+      ]
+    }
+  }
+}

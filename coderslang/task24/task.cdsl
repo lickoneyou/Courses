@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 11,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "First user",
+      "description": [
+        "Take a look at *solution.js*. It imports an object **user** from the file *helper.js* and logs it to the screen.",
+        "",
+        "Add properties name, surname and address to the **user** object in the file *helper.js*."
+      ]
+    },
+    "ru": {
+      "title": "Первый пользователь",
+      "description": [
+        "Загляни в файл **solution.js**. Он импортирует объект **user** из файла *helper.js* и выводит его на экран.",
+        "",
+        "Добавь поля name, surname и address к объекту **user** в файле *helper.js*."
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "brackets",
+  "version": "1.0.0",
+  "description": "Brackets",
+  "main": "test.js",
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankouskia/additional_5.git"
+  },
+  "author": "yankouskia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yankouskia/additional_5/issues"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  },
+  "homepage": "https://github.com/yankouskia/additional_5#readme"
+}

@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 11,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Objective is clear",
+      "description": [
+        "Initialize the array objectives with 3 strings 'Full', 'Stack', 'Javascript' in file helper.js"
+      ]
+    },
+    "ru": {
+      "title": "Вижу цель, не вижу препятствий",
+      "description": [
+        "Инициализируй массив objectives тремя строками 'Full', 'Stack', 'Javascript' в файле helper.js"
+      ]
+    }
+  }
+}

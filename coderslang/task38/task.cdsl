@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 12,
+  "reward": 1,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "One will do",
+      "description": [
+        "Implement the function `oneWillDo` in `helper.js`. It should accept 3 boolean parameters (x, y, z) and",
+        "- return `true`, if at least one of them is `true`",
+        "- return `false` otherwise",
+        "",
+        "The function `oneWillDo` should NOT contain any `if` statements"
+      ]
+    },
+    "ru": {
+      "title": "Одного достаточно",
+      "description": [
+        "Реализуй функцию `oneWillDo` в `helper.js`. Она должна принять 3 логических параметра (x, y, z) и",
+        "- если хотя бы один из них `true`, вернуть `true`",
+        "- иначе, вернуть `false`",
+        "",
+        "Функция `oneWillDo` НЕ должна содержать НИ ОДНОГО блока `if`"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "jsLectureId": 12,
+  "reward": 2,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Min of 3",
+      "description": [
+        "Implement the function **min** that takes three numbers and returns the smallest one."
+      ]
+    },
+    "ru": {
+      "title": "Меньшее из трех",
+      "description": [
+        "Реализуй функцию **min**, которая принимает три числа и возвращает самое меньшее из них."
+      ]
+    }
+  }
+}
