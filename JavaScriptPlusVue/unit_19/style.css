@@ -1,0 +1,8 @@
+.active {
+  visibility: visible !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
